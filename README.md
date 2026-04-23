@@ -63,7 +63,7 @@ pip install -r requirements.txt
 ## Run
 
 ```bash
-python HandDemo.py
+python main.py
 ```
 
 ## Troubleshooting
