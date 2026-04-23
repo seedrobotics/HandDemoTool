@@ -1,0 +1,32 @@
+baudrate: 1000000
+
+control_port_linux: "/dev/ttyUSB0"
+sensor_port_linux: "/dev/ttyUSB1"
+
+control_port_windows: "COM9"
+sensor_port_windows: "COM10"
+
+r_joint_mapping: 
+  Wrist Rotation: 31
+  Wrist Adduction: 32
+  Wrist Flexation: 33
+  Thumb Adduction: 34
+  Thumb Flexation: 35
+  Index Flexation: 36
+  Middle Flexation: 37
+  Ring and Little Flexation: 38
+r_mainboard: 30
+
+l_joint_mapping: 
+  Wrist Rotation: 41
+  Wrist Adduction: 42
+  Wrist Flexation: 43
+  Thumb Adduction: 44
+  Thumb Flexation: 45
+  Index Flexation: 46
+  Middle Flexation: 47
+  Ring and Little Flexation: 48
+l_mainboard: 40
+
+
+
