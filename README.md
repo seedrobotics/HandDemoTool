@@ -8,11 +8,9 @@ While servo ID's are pre configured, the Comports will likely have to be set by 
 [Windows](https://storage.seedrobotics.com/tools/Handdemo/Windows.zip),
 [Linux](https://storage.seedrobotics.com/tools/Handdemo/Linux.zip)
 
-## Requirements
-- Python 3.12
-- USB adapters for Dynamixel controller and FTS3 sensor
+## Running it as a Python Script: 
 
-## Linux Setup
+### Linux Setup
 1) Create and activate a virtual environment:
 
 ```bash
@@ -37,7 +35,7 @@ sudo bash set_usb_latency.sh
 - sensor_port_linux: "/dev/ttyUSB1"
 
 
-## Windows Setup
+### Windows Setup
 1) Install Python 3.12 and create a virtual environment:
 
 ```powershell
